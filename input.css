@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Sora', sans-serif;
+    }
+}
+
+.hd-title {
+    @apply font-semibold text-[#1F3347];
+}
+
+.hd-sub {
+    @apply text-[#777781];
+}
